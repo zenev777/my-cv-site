@@ -1,0 +1,89 @@
+.photo img {
+    max-width: 500px;
+    height: auto;
+    box-shadow: 0 0 15px -2px #444444;
+}
+
+.photo {
+    position: relative;
+    text-align: center;
+}
+
+.photo h2 {
+    position: absolute;
+    top: 0px;
+    right: 87.5px;
+    font-size: 60px;
+    color: white;
+    margin-top: 15px;
+}
+
+.articles {
+    width: 750px;
+    height: 600px;
+}
+
+.biggest-heading {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 60px;
+    background: -webkit-linear-gradient( rgba(1, 216, 115, 1) , rgba(0, 222, 235, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aboutme-article ul {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    margin-top: 0px;
+    padding-left: 0px;
+    justify-content: center;
+}
+
+article ul li .vert-line {
+    border-left: 1.5px solid black;
+    margin-left: 15px;
+    padding-right: 15px;
+}
+
+.articles {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.aboutme-article p {
+    font-size: 18px;
+    border-bottom: 1.5px solid greenyellow;
+    padding-bottom: 20px;
+}
+
+.rest {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rest div {
+    width: 350px;
+    gap: 30px;
+}
+
+.rest div h3,
+p {
+    text-align: center;
+}
+
+
+.rest div .svg-icons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.svg-icons svg {
+    width: 20px;
+    height: auto;
+    fill: rgba(1, 216, 115, 1);
+}

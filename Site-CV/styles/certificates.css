@@ -1,0 +1,6 @@
+.slide img{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,6 +1,73 @@
-.slide img{
-    width: 300px;
-    height: auto;
+.slide-row {
     display: flex;
-    flex-wrap: wrap;
+    width: 9600px;
+}
+
+.slide-col {
+    width: 900px;
+    height: 550px;
+    position: relative;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.cert-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.cert-img img {
+    width: 383px;
+    height: auto;
+}
+
+.cert-text {
+    background-color: grey;
+    width: 570px;
+    height: 320px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    color: white;
+    padding: 45px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.slide-container {
+    width: 1300px;
+    height: 650px;
+}
+
+.indicator{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px;
+}
+
+.btn{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background: black;
+    cursor: pointer;
+}
+
+.active{
+    width: 40px;
+}
+
+.slider{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }

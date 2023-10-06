@@ -7,7 +7,47 @@
 .photo {
     position: relative;
     text-align: center;
+    width: 500px;
 }
+
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.photo-hovering {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.7s ease;
+    background-color: #10d2c5;
+}
+
+.container :hover .photo-hovering {
+    opacity: 1;
+}
+
+.photo-text {
+    
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-bottom: solid 2px white;
+}
+
 
 .photo h2 {
     position: absolute;
@@ -28,7 +68,7 @@
     margin-bottom: 20px;
     text-align: center;
     font-size: 60px;
-    background: -webkit-linear-gradient( rgba(1, 216, 115, 1) , rgba(0, 222, 235, 1));
+    background: -webkit-linear-gradient(rgba(1, 216, 115, 1), rgba(0, 222, 235, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -55,7 +95,7 @@ article ul li .vert-line {
 
 .aboutme-article p {
     font-size: 18px;
-    border-bottom: 1.5px solid greenyellow;
+    border-bottom: 1.5px solid #10d2c5;
     padding-bottom: 20px;
 }
 

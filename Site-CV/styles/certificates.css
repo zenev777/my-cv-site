@@ -1,6 +1,11 @@
+.certificates-body{
+    background: linear-gradient(90deg, rgba(204,126,39,1) 38%, rgba(244,3,3,1) 100%);
+}
+
 .slide-row {
     display: flex;
     width: 6000px;
+    transition: 0.5s;
 }
 
 .slide-col {
@@ -8,10 +13,7 @@
     height: 550px;
     position: relative;
     margin-top: 35px;
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
+    transition: 1s;
 }
 
 .cert-img {
@@ -44,6 +46,7 @@
 .slide-container {
     width: 1300px;
     height: 650px;
+   
 }
 
 .indicator{
@@ -59,8 +62,9 @@
     width: 15px;
     margin: 4px;
     border-radius: 15px;
-    background: black;
+    background: #dd3535;
     cursor: pointer;
+    transition: 0.4s;
 }
 
 .active{
@@ -71,10 +75,12 @@
 
 .slide-col{
     margin-left: 90px;
+
 }
 
-/* .slider{
+.slider{
     width: 980px;
     height: 650px;
     overflow: hidden;
-} */
+    
+}

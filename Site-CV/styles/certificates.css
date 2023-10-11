@@ -4,7 +4,7 @@
 
 .slide-row {
     display: flex;
-    width: 2500px;
+    width: 2800px;
     transition: 0.5s;
     gap: 50px;
 }
@@ -46,8 +46,10 @@
 } */
 
 .slide-container {
+    display: flex;
     width: 1300px;
     height: 650px;
+    justify-content: center;
 }
 
 .indicator{
@@ -55,6 +57,7 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: 15px;
+    margin-left: 25px;
 }
 
 .btn{
@@ -74,10 +77,9 @@
 
 
 .slider{
-    width: 390px;
+    width: 850px;
     height: 550px;
-    /* overflow: hidden; */
-    margin-left: 90px;
+    overflow: hidden;
     margin-top: 35px;
 }
 

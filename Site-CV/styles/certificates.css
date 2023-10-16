@@ -4,7 +4,7 @@
 
 .slide-row {
     display: flex;
-    width: 2800px;
+    width: 3500px;
     transition: 0.5s;
     gap: 50px;
 }

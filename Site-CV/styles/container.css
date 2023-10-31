@@ -36,31 +36,38 @@ body {
 }
 
 
-nav {
+.nav-line {
     width: 50px;
     padding-right: 25px;
     padding-left: 25px;
 }
 
-nav ul {
+.navbar ul {
     display: flex;
     flex-direction: column;
     list-style: none;
-    align-self: center;
+    justify-content: center;
     padding: 0px;
     gap: 30px;
+    
 }
 
-nav ul li {
-    text-align: center;
+.navbar ul li {
+    /* text-align: center; */
+}
+
+.logo-div, .navbar, .dl-div{
+    display: flex;
+    justify-content: center;
 }
 
 
-nav svg {
+.nav-line svg {
     width: 25px;
     height: auto;
     fill: rgba(0, 222, 235, 1);
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    text-align: center;
 }
 
 /* nav ul li svg:hover {

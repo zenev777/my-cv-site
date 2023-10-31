@@ -25,6 +25,17 @@ body {
     box-shadow: 0 0 15px -2px #444444;
 }
 
+
+
+.nav-line{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 650px;
+    width: 100px;
+}
+
+
 nav {
     width: 50px;
     padding-right: 25px;

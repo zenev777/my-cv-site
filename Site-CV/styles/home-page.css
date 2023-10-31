@@ -1,3 +1,10 @@
+.nav-line{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
 .photo img {
     max-width: 500px;
     height: auto;

@@ -5,7 +5,7 @@ html{
     min-width: 1015px;
 }
 
-body {
+.home-body {
     background: linear-gradient(90deg, rgba(1, 216, 115, 1) 15%, rgba(0, 222, 235, 1) 85%);
     
 }
@@ -33,10 +33,6 @@ body {
     justify-content: space-between;
     height: 650px;
     width: 100px;
-}
-
-
-.nav-line {
     width: 50px;
     padding-right: 25px;
     padding-left: 25px;
@@ -66,8 +62,21 @@ body {
     width: 25px;
     height: auto;
     fill: rgba(0, 222, 235, 1);
-    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    filter: drop-shadow(1px 3px 1px rgb(0 0 0 / 0.4));
     text-align: center;
+}
+
+.dl-div{
+    padding-bottom: 20px;
+}
+
+.logo-div{
+    padding-top: 20px;
+}
+
+.download-btn{
+    background-color: white;
+    border: none;
 }
 
 /* nav ul li svg:hover {

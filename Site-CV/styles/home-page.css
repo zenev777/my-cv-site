@@ -1,9 +1,6 @@
-.nav-line{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.home-body .nav-line svg {
+    fill: rgba(0, 222, 235, 1);
 }
-
 
 .photo img {
     max-width: 500px;

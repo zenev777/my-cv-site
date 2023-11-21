@@ -4,9 +4,9 @@
     background: linear-gradient(90deg, rgba(197, 118, 20, 1) 1%, rgba(224, 214, 7, 1) 41%, rgba(1, 216, 115, 1) 93%);
 }
 
-.navbar svg {
+
+.contacts-body .nav-line svg {
     fill: rgb(209, 136, 47);
-    /* padding-left: 12px; */
 }
 
 .contact-container {
